@@ -1,0 +1,16 @@
+Package: ImbTree
+Type: Package
+Title: Software to built Decision Trees for imballance data.
+Version: 0.1.0
+Author: Krzysztof Gajowniczek
+Maintainer: Krzysztof Gajowniczek <krzysztof_gajowniczek@sggw.pl>
+Description: Software to build Decision Trees for imbalanced data.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends:
+  data.tree, pROC, parallel, GenSA, BBmisc, methods
+Suggests:
+RoxygenNote: 7.1.1
+URL: https://github.com/KrzyGajow/ImbTree
+BugReports: https://github.com/KrzyGajow/ImbTree/issues
